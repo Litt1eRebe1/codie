@@ -58,7 +58,8 @@ class _HomePageState extends State<HomePage> {
                   ],
                 ),
                 child: SvgAsset(
-                    assetName: AssetName.discover, color: Color(0xff4A80F0)),
+                    assetName: AssetName.discover,
+                    color: Color.fromARGB(255, 255, 255, 255)),
               ),
             ),
             BottomNavigationBarItem(
@@ -70,14 +71,15 @@ class _HomePageState extends State<HomePage> {
                   borderRadius: BorderRadius.circular(12),
                   boxShadow: [
                     BoxShadow(
-                        color: Color(0xff4A80F0).withOpacity(0.3),
+                        color:
+                            Color.fromARGB(255, 255, 255, 255).withOpacity(0.3),
                         offset: Offset(0, 4),
                         blurRadius: 20),
                   ],
                 ),
                 child: SvgAsset(
                   assetName: AssetName.chart,
-                  color: Color(0xff4A80F0),
+                  color: Color.fromARGB(255, 255, 255, 255),
                 ),
               ),
             ),
@@ -90,14 +92,15 @@ class _HomePageState extends State<HomePage> {
                   borderRadius: BorderRadius.circular(12),
                   boxShadow: [
                     BoxShadow(
-                        color: Color(0xff4A80F0).withOpacity(0.3),
+                        color:
+                            Color.fromARGB(255, 222, 222, 228).withOpacity(0.3),
                         offset: Offset(0, 4),
                         blurRadius: 20),
                   ],
                 ),
                 child: SvgAsset(
                   assetName: AssetName.profile,
-                  color: Color(0xff4A80F0),
+                  color: Color.fromARGB(255, 255, 255, 255),
                 ),
               ),
             ),
@@ -105,7 +108,7 @@ class _HomePageState extends State<HomePage> {
           currentIndex: _selectedIndex,
           selectedItemColor: Colors.amber[800],
           onTap: _onItemTapped,
-          backgroundColor: Color(0xff1C2031),
+          backgroundColor: Color.fromARGB(255, 0, 0, 0),
         ),
       ),
     );
