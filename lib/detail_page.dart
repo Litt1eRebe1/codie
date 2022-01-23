@@ -18,7 +18,7 @@ class _DetailPageState extends State<DetailPage> {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      backgroundColor: const Color(0xff121421),
+      backgroundColor: const Color(0xFFFFFFFF),
       body: SafeArea(
         child: Stack(
           children: [
@@ -50,7 +50,7 @@ class _DetailPageState extends State<DetailPage> {
                   child: Text(
                     "Best practice meditations",
                     style: TextStyle(
-                        color: Color(0xffffffff).withOpacity(0.7),
+                        color: Color(0xFF000000).withOpacity(0.7),
                         fontWeight: FontWeight.w400,
                         fontSize: 16.w),
                   ),
@@ -134,7 +134,7 @@ class _DetailPageState extends State<DetailPage> {
                   child: Text(
                     "Meditation is a practice where an individual uses a technique – such as mindfulness, or focusing their mind on a particular object, thought or activity – to train attention and awareness, and achieve a mentally clear and emotionally calm and stable state. Scholars have found meditation difficult to define, as practices vary both between traditions and within them.",
                     style: TextStyle(
-                        color: Color(0xffffffff).withOpacity(0.7),
+                        color: Color(0xFF000000).withOpacity(0.7),
                         fontWeight: FontWeight.w400,
                         fontSize: 16.w),
                   ),
@@ -222,7 +222,7 @@ class _DetailPageState extends State<DetailPage> {
                       onTap: onStartButtonPressed,
                       child: Ink(
                         decoration: BoxDecoration(
-                          color: Color(0xff4A80F0),
+                          color: Color(0xFFF04A68),
                           borderRadius: BorderRadius.circular(16),
                         ),
                         child: Container(

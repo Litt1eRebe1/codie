@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "985497572137",
+    "project_id": "codie-8007e",
+    "storage_bucket": "codie-8007e.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:985497572137:android:57bbfedc69c23b66a79d38",
+        "android_client_info": {
+          "package_name": "com.flutterby.codie"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "985497572137-ieukk48o3okn9ef3vu5g1bhjv68f22hn.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAVZDouSiCDqVRCYVRdQ1zz_Z0viwu0XOA"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "985497572137-ieukk48o3okn9ef3vu5g1bhjv68f22hn.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
